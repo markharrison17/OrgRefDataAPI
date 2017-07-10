@@ -1,0 +1,18 @@
+platform: linux
+
+inputs:
+- name: ods-api-src
+
+outputs:
+- name: context
+
+run:
+  path: sh
+  args:
+    - -exc
+    - |
+      mkdir -p context/
+      cp -r ods-api-src/app context/
+      cp leg-src/main.py context/
+      cp leg-src/config.py context/
+      cp leg-src/Dockerfile context/

@@ -16,9 +16,16 @@ RUN apk update && \
 # Create unprivileged user
 RUN adduser -S service
 
-MAINTAINER NHS Digital Delivery Centre, CIS Team. Email: HSCIC.DL-CIS@nhs.net
-
 COPY requirements.txt /tmp/requirements.txt
 
 RUN pip3 install -r /tmp/requirements.txt && \
     rm /tmp/requirements.txt
+
+# Copy in service files
+RUN mkdir -p /usr/src/authorize-service/app
+COPY main.py /usr/src/authorize-service/main.py
+COPY config.py /usr/src/authorize-service/config.py
+COPY timer_utils.py /usr/src/authorize-service/timer_utils.py
+COPY app /usr/src/authorize-service/app
+USER service
+CMD ["python3", "-u", "/usr/src/authorize-service/main.py"]

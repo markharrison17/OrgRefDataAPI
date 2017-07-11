@@ -4,3 +4,19 @@ resources:
   type: git
   source:
     uri: https://github.com/markharrison17/OrgRefDataAPI.git
+
+- name: python-test-img
+  type: docker-image
+  source:
+    repository: registry.iam.spine2.ncrs.nhs.uk:5001/oic-python-testing
+    username: {{docker-username}}
+    password: {{docker-password}}
+    ca_certs:
+    - domain: registry.iam.spine2.ncrs.nhs.uk:5001
+      cert: {{registry-cert}}
+
+jobs:
+  name: test-and-build-odi-api
+  serial: true
+  plan:
+  - get: ods-api-scr

@@ -5,18 +5,48 @@ resources:
   source:
     uri: https://github.com/markharrison17/OrgRefDataAPI.git
 
+- name: python-test-src
+  type: git
+  source:
+    uri: https://github.com/markharrison17/PythonTesting.git
+
 - name: python-test-img
   type: docker-image
   source:
-    repository: registry.iam.spine2.ncrs.nhs.uk:5001/oic-python-testing
-    username: {{docker-username}}
-    password: {{docker-password}}
-    ca_certs:
-    - domain: registry.iam.spine2.ncrs.nhs.uk:5001
-      cert: {{registry-cert}}
+    repository: markharrison17/pythontest
+    tag: '1.0'
 
 jobs:
-  name: test-and-build-odi-api
+- name: build-python-test
   serial: true
   plan:
-  - get: ods-api-scr
+  - get: python-test-src
+    trigger: true
+  - put: python-test-img
+    params:
+      build: python-test-src
+
+- name: test-and-build-odi-api
+  serial: true
+  plan:
+  - aggregate:
+    - get: python-test-img
+      trigger: true
+    - get: ods-api-src
+      trigger: true
+  - aggregate:
+    - task: lint
+      image: python-test-img
+      file: ods-api-src/ci/pylint.yml
+    # - task: unit
+    #   image: python-test-img
+    #   file: ods-api-src/ci/unit.yml
+    # - task: coverage
+    #   image: python-test-img
+    #   file: ods-api-src/ci/coverage.yml
+    # - task: context
+    #   image: python-test-img
+    #   file: ods-api-src/ci/context.yml
+#  - put: aut-img
+#    params:
+#      build: context

@@ -15,6 +15,8 @@ resources:
   source:
     repository: markharrison17/pythontest
     tag: '1.0'
+    username: {{docker-username}}
+    password: {{docker-password}}
 
 jobs:
 - name: build-python-test

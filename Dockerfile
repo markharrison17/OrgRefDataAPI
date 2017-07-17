@@ -22,10 +22,7 @@ RUN pip3 install -r /tmp/requirements.txt && \
     rm /tmp/requirements.txt
 
 # Copy in service files
-RUN mkdir -p /usr/src/authorize-service/app
-COPY main.py /usr/src/authorize-service/main.py
-COPY config.py /usr/src/authorize-service/config.py
-COPY timer_utils.py /usr/src/authorize-service/timer_utils.py
-COPY app /usr/src/authorize-service/app
+RUN mkdir -p /usr/src/open-ods-api-service
+COPY main.py /usr/src/open-ods-api-service/main.py
 USER service
-CMD ["python3", "-u", "/usr/src/authorize-service/main.py"]
+CMD ["python3", "-u", "/usr/src/open-ods-api-service/main.py"]

@@ -4,7 +4,7 @@ inputs:
 - name: ods-api-src
 
 run:
-  dir: ods-api
+  dir: ods-api-src
   path: pylint
   args:
     - main.py

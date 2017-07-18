@@ -22,5 +22,5 @@ run:
   args:
   - -exc
   - |
-    coverage3 run --source=main.py -m unittest discover
-    coverage3 report --fail-under 19 -m
+    coverage3 run -m unittest discover
+    coverage3 report --fail-under 10 -m

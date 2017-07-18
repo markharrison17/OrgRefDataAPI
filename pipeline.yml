@@ -37,12 +37,12 @@ jobs:
     - get: ods-api-src
       trigger: true
   - aggregate:
-    - task: lint
-      image: python-test-img
-      file: ods-api-src/ci/pylint.yml
-    # - task: unit
+    # - task: lint
     #   image: python-test-img
-    #   file: ods-api-src/ci/unit.yml
+    #   file: ods-api-src/ci/pylint.yml
+    - task: unit
+      image: python-test-img
+      file: ods-api-src/ci/unit.yml
     # - task: coverage
     #   image: python-test-img
     #   file: ods-api-src/ci/coverage.yml

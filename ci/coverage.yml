@@ -23,4 +23,4 @@ run:
   - -exc
   - |
     coverage3 run --source=main.py -m unittest discover
-    coverage3 report --fail-under 99 -m
+    coverage3 report --fail-under 19 -m

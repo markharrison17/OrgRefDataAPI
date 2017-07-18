@@ -59,7 +59,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-              <folding />
+              <folding>
+                <marker date="1500384508000" expanded="true" signature="408:918" ph="jobs: &lt;2 items&gt;" />
+                <marker date="1500384508000" expanded="true" signature="581:598" ph="test-and-…ld-odi-api" />
+                <marker date="1500384508000" expanded="true" signature="802:918" ph="aggregate: &lt;2 items&gt;" />
+                <marker date="1500384508000" expanded="true" signature="811:836" ph="ods-api-s…pylint.yml" />
+                <marker date="1500384508000" expanded="true" signature="849:853" ph="unit" />
+                <marker date="1500384508000" expanded="true" signature="867:882" ph="python-test-img" />
+                <marker date="1500384508000" expanded="true" signature="895:918" ph="ods-api-s…i/unit.yml" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -373,7 +381,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1500384508000" expanded="true" signature="408:918" ph="jobs: &lt;2 items&gt;" />
+            <marker date="1500384508000" expanded="true" signature="581:598" ph="test-and-…ld-odi-api" />
+            <marker date="1500384508000" expanded="true" signature="802:918" ph="aggregate: &lt;2 items&gt;" />
+            <marker date="1500384508000" expanded="true" signature="811:836" ph="ods-api-s…pylint.yml" />
+            <marker date="1500384508000" expanded="true" signature="849:853" ph="unit" />
+            <marker date="1500384508000" expanded="true" signature="867:882" ph="python-test-img" />
+            <marker date="1500384508000" expanded="true" signature="895:918" ph="ods-api-s…i/unit.yml" />
+          </folding>
         </state>
       </provider>
     </entry>

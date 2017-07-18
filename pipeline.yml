@@ -43,9 +43,9 @@ jobs:
     - task: unit
       image: python-test-img
       file: ods-api-src/ci/unit.yml
-    - task: coverage
-      image: python-test-img
-      file: ods-api-src/ci/coverage.yml
+    # - task: coverage
+    #   image: python-test-img
+    #   file: ods-api-src/ci/coverage.yml
     # - task: context
     #   image: python-test-img
     #   file: ods-api-src/ci/context.yml

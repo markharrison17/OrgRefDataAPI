@@ -10,6 +10,11 @@ resources:
   source:
     uri: https://github.com/markharrison17/PythonTesting.git
 
+- name: import-tool-src
+  type: git
+  source:
+    uri: https://github.com/markharrison17/ImportTool.git
+
 - name: python-test-img
   type: docker-image
   source:
@@ -52,3 +57,25 @@ jobs:
 #  - put: aut-img
 #    params:
 #      build: context
+
+- name: test-and-build-import-tool
+  serial: true
+  plan:
+  - aggregate:
+    - get: python-test-img
+      trigger: true
+    - get: import-tool-src
+      trigger: true
+  - aggregate:
+    - task: lint
+      image: python-test-img
+      file: import-tool-src/ci/pylint.yml
+    - task: unit
+      image: python-test-img
+      file: import-tool-src/ci/unit.yml
+    - task: coverage
+      image: python-test-img
+      file: import-tool-src/ci/coverage.yml
+    - task: context
+      image: python-test-img
+      file: import-tool-src/ci/context.yml

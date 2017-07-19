@@ -73,9 +73,9 @@ jobs:
     - task: unit
       image: python-test-img
       file: import-tool-src/ci/unit.yml
-    - task: coverage
-      image: python-test-img
-      file: import-tool-src/ci/coverage.yml
-    - task: context
-      image: python-test-img
-      file: import-tool-src/ci/context.yml
+    # - task: coverage
+    #   image: python-test-img
+    #   file: import-tool-src/ci/coverage.yml
+    # - task: context
+    #   image: python-test-img
+    #   file: import-tool-src/ci/context.yml

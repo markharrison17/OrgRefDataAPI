@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc6fced-f63c-412e-bc94-a015057f6193" name="Default" comment="" />
+    <list default="true" id="0dc6fced-f63c-412e-bc94-a015057f6193" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pipeline.yml" afterPath="$PROJECT_DIR$/pipeline.yml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,12 +59,10 @@
       <file leaf-file-name="pipeline.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pipeline.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+            <state relative-caret-position="296">
+              <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
               <folding>
-                <marker date="1500389430000" expanded="true" signature="408:912" ph="jobs: &lt;2 items&gt;" />
-                <marker date="1500389430000" expanded="true" signature="581:598" ph="test-and-…ld-odi-api" />
-                <marker date="1500389430000" expanded="true" signature="796:912" ph="aggregate: &lt;2 items&gt;" />
+                <marker date="1500460000000" expanded="true" signature="4:235" ph="resources: &lt;3 items&gt;" />
               </folding>
             </state>
           </provider>
@@ -313,6 +313,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="819" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -368,12 +369,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pipeline.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        <state relative-caret-position="296">
+          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding>
-            <marker date="1500389430000" expanded="true" signature="408:912" ph="jobs: &lt;2 items&gt;" />
-            <marker date="1500389430000" expanded="true" signature="581:598" ph="test-and-…ld-odi-api" />
-            <marker date="1500389430000" expanded="true" signature="796:912" ph="aggregate: &lt;2 items&gt;" />
+            <marker date="1500460000000" expanded="true" signature="4:235" ph="resources: &lt;3 items&gt;" />
           </folding>
         </state>
       </provider>

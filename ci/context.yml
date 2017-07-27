@@ -12,5 +12,5 @@ run:
     - -exc
     - |
       mkdir -p context/
-      cp ods-api-src//main.py context/
-      cp ods-api-src//Dockerfile context/
+      cp ods-api-src/main.py context/
+      cp ods-api-src/Dockerfile context/

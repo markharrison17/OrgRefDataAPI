@@ -23,6 +23,14 @@ resources:
     username: {{docker-username}}
     password: {{docker-password}}
 
+#- name: ods-postgres-db-img
+#  type: docker-image
+#  source:
+#      repository: markharrison17/ods-postgres-db
+#      tag: '1.0'
+#      username: {{docker-username}}
+#      password: {{docker-password}}
+
 jobs:
 - name: build-python-test
   serial: true
@@ -32,6 +40,17 @@ jobs:
   - put: python-test-img
     params:
       build: python-test-src
+
+#- name: build-ods-postgres-db-img
+#  serial: true
+#  plan:
+#  - get: ods-postgres-db-img
+#    trigger: true
+#  - get: import-tool-src
+#    trigger: true
+#  - task: create-ods-db
+#    image: ods-postgres-db-img
+#    file: import-tool-src/run.yml 
 
 - name: test-and-build-ods-api
   serial: true

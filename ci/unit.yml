@@ -3,18 +3,6 @@ platform: linux
 inputs:
 - name: ods-api-src
 
-# params:
-#   AUTHORIZE_PORT: 8889
-#   AUTHORIZE_AGENT_LISTENER_PORT: 8080
-#   AUTHORIZE_VAULT_BASE_URI: http://192.168.99.253:8200
-#   AUTHORIZE_RANCHER_ENVIRONMENT: Default
-#   AUTHORIZE_SECRETS_CHECK_RETRY_COUNT: 15
-#   AUTHORIZE_AUTHORIZE_ENDPOINT_URI: https://connect.iam.spine2.ncrs.nhs.uk:4443/authorize
-#   AUTHORIZE_TOKEN_ENDPOINT_URI: https://connect.iam.spine2.ncrs.nhs.uk:4444/token
-#   AUTHORIZE_JWKS_ENDPOINT: https://connect.iam.spine2.ncrs.nhs.uk:4443/.well-known/jwks.json
-#   AUTHORIZE_ISSUER_NAME_AUTHORIZE_SERVICE: https://connect.iam.spine2.ncrs.nhs.uk/authorize
-#   AUTHORIZE_ISSUER_NAME_TOKEN_SERVICE: https://connect.iam.spine2.ncrs.nhs.uk/token
-
 run:
   dir: ods-api-src
   path: sh

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc6fced-f63c-412e-bc94-a015057f6193" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ci/context.yml" afterPath="$PROJECT_DIR$/ci/context.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pipeline.yml" afterPath="$PROJECT_DIR$/pipeline.yml" />
-    </list>
+    <list default="true" id="0dc6fced-f63c-412e-bc94-a015057f6193" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -24,12 +24,12 @@ resources:
     password: {{docker-password}}
 
 - name: ods-postgres-db-img
- type: docker-image
- source:
-     repository: markharrison17/ods-db-img
-     tag: '1.0'
-     username: {{docker-username}}
-     password: {{docker-password}}
+  type: docker-image
+  source:
+    repository: markharrison17/ods-db-img
+    tag: '1.0'
+    username: {{docker-username}}
+    password: {{docker-password}}
 
 jobs:
 - name: build-python-test

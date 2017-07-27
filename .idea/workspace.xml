@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc6fced-f63c-412e-bc94-a015057f6193" name="Default" comment="" />
+    <list default="true" id="0dc6fced-f63c-412e-bc94-a015057f6193" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pipeline.yml" afterPath="$PROJECT_DIR$/pipeline.yml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +62,7 @@
             <state relative-caret-position="296">
               <caret line="68" column="13" lean-forward="false" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
               <folding>
-                <marker date="1501151010000" expanded="true" signature="4:235" ph="resources: &lt;3 items&gt;" />
+                <marker date="1501167185000" expanded="true" signature="4:235" ph="resources: &lt;3 items&gt;" />
               </folding>
             </state>
           </provider>
@@ -69,9 +71,16 @@
       <file leaf-file-name="unit.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ci/unit.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding>
+                <marker date="1501154274000" expanded="true" signature="46:161" ph="run: &lt;3 keys&gt;" />
+                <marker date="1501154274000" expanded="true" signature="58:69" ph="ods-api-src" />
+                <marker date="1501154274000" expanded="true" signature="78:80" ph="sh" />
+                <marker date="1501154274000" expanded="true" signature="83:161" ph="args: &lt;2 items&gt;" />
+                <marker date="1501154274000" expanded="true" signature="95:99" ph="-exc" />
+                <marker date="1501154274000" expanded="true" signature="106:161" ph="pwd&#10;ls&#10;py… discover&#10;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -359,9 +368,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ci/unit.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <marker date="1501154274000" expanded="true" signature="46:161" ph="run: &lt;3 keys&gt;" />
+            <marker date="1501154274000" expanded="true" signature="58:69" ph="ods-api-src" />
+            <marker date="1501154274000" expanded="true" signature="78:80" ph="sh" />
+            <marker date="1501154274000" expanded="true" signature="83:161" ph="args: &lt;2 items&gt;" />
+            <marker date="1501154274000" expanded="true" signature="95:99" ph="-exc" />
+            <marker date="1501154274000" expanded="true" signature="106:161" ph="pwd&#10;ls&#10;py… discover&#10;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -370,7 +386,7 @@
         <state relative-caret-position="296">
           <caret line="68" column="13" lean-forward="false" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
           <folding>
-            <marker date="1501151010000" expanded="true" signature="4:235" ph="resources: &lt;3 items&gt;" />
+            <marker date="1501167185000" expanded="true" signature="4:235" ph="resources: &lt;3 items&gt;" />
           </folding>
         </state>
       </provider>

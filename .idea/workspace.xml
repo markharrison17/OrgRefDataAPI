@@ -58,9 +58,9 @@
         <entry file="file://$PROJECT_DIR$/pipeline.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
-              <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+              <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
               <folding>
-                <marker date="1501235336000" expanded="true" signature="4:236" ph="resources: &lt;3 items&gt;" />
+                <marker date="1501235514000" expanded="true" signature="4:236" ph="resources: &lt;3 items&gt;" />
               </folding>
             </state>
           </provider>
@@ -382,9 +382,9 @@
     <entry file="file://$PROJECT_DIR$/pipeline.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
-          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+          <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
           <folding>
-            <marker date="1501235336000" expanded="true" signature="4:236" ph="resources: &lt;3 items&gt;" />
+            <marker date="1501235514000" expanded="true" signature="4:236" ph="resources: &lt;3 items&gt;" />
           </folding>
         </state>
       </provider>

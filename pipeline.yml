@@ -63,7 +63,8 @@ jobs:
   - get: postgres-image-src
     trigger: true
   - put: ods-postgres-db-img
-      params: postgres-image-src
+    params:
+      build: postgres-image-src
 
 - name: test-and-build-ods-api
   serial: true

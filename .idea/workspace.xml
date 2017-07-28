@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc6fced-f63c-412e-bc94-a015057f6193" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pipeline.yml" afterPath="$PROJECT_DIR$/pipeline.yml" />
-    </list>
+    <list default="true" id="0dc6fced-f63c-412e-bc94-a015057f6193" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +60,7 @@
             <state relative-caret-position="296">
               <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
               <folding>
-                <marker date="1501233646000" expanded="true" signature="4:343" ph="resources: &lt;3 items&gt;" />
+                <marker date="1501235336000" expanded="true" signature="4:236" ph="resources: &lt;3 items&gt;" />
               </folding>
             </state>
           </provider>
@@ -386,7 +384,7 @@
         <state relative-caret-position="296">
           <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
           <folding>
-            <marker date="1501233646000" expanded="true" signature="4:343" ph="resources: &lt;3 items&gt;" />
+            <marker date="1501235336000" expanded="true" signature="4:236" ph="resources: &lt;3 items&gt;" />
           </folding>
         </state>
       </provider>

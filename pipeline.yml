@@ -46,16 +46,24 @@ jobs:
     params:
       build: python-test-src
 
+# - name: build-ods-postgres-db-img
+#   serial: true
+#   plan:
+#   - get: postgres-image-src
+#     trigger: true
+#   - get: import-tool-src
+#     trigger: true
+#   - task: create-ods-db
+#     image: ods-postgres-db-img
+#     file: import-tool-src/run.yml
+
 - name: build-ods-postgres-db-img
   serial: true
   plan:
   - get: postgres-image-src
     trigger: true
-  - get: import-tool-src
-    trigger: true
-  - task: create-ods-db
-    image: ods-postgres-db-img
-    file: import-tool-src/run.yml
+  - put: ods-postgres-db-img
+      params: postgres-image-src
 
 - name: test-and-build-ods-api
   serial: true

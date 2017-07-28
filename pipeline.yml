@@ -10,6 +10,11 @@ resources:
   source:
     uri: https://github.com/markharrison17/PythonTesting.git
 
+- name: postgres-image-src
+  type: git
+  source:
+    uri: https://github.com/markharrison17/OdsPostgresDbImg.git
+
 - name: import-tool-src
   type: git
   source:
@@ -44,7 +49,7 @@ jobs:
 - name: build-ods-postgres-db-img
   serial: true
   plan:
-  - get: ods-postgres-db-img
+  - get: postgres-image-src
     trigger: true
   - get: import-tool-src
     trigger: true

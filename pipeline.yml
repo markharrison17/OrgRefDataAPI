@@ -46,17 +46,6 @@ jobs:
     params:
       build: python-test-src
 
-# - name: build-ods-postgres-db-img
-#   serial: true
-#   plan:
-#   - get: postgres-image-src
-#     trigger: true
-#   - get: import-tool-src
-#     trigger: true
-#   - task: create-ods-db
-#     image: ods-postgres-db-img
-#     file: import-tool-src/run.yml
-
 - name: build-ods-postgres-db-img
   serial: true
   plan:
@@ -95,16 +84,16 @@ jobs:
   serial: true
   plan:
   - aggregate:
-    - get: python-test-img
+    - get: ods-postgres-db-img
       trigger: true
     - get: import-tool-src
       trigger: true
   - aggregate:
     - task: lint
-      image: python-test-img
+      image: ods-postgres-db-img
       file: import-tool-src/ci/pylint.yml
     - task: unit
-      image: python-test-img
+      image: ods-postgres-db-img
       file: import-tool-src/ci/unit.yml
     # - task: coverage
     #   image: python-test-img

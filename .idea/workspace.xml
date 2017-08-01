@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc6fced-f63c-412e-bc94-a015057f6193" name="Default" comment="" />
+    <list default="true" id="0dc6fced-f63c-412e-bc94-a015057f6193" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pipeline.yml" afterPath="$PROJECT_DIR$/pipeline.yml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,10 +59,10 @@
       <file leaf-file-name="pipeline.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pipeline.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+            <state relative-caret-position="131">
+              <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
               <folding>
-                <marker date="1501238961000" expanded="true" signature="4:236" ph="resources: &lt;3 items&gt;" />
+                <marker date="1501506759000" expanded="true" signature="4:236" ph="resources: &lt;3 items&gt;" />
               </folding>
             </state>
           </provider>
@@ -381,10 +383,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pipeline.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        <state relative-caret-position="131">
+          <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
           <folding>
-            <marker date="1501238961000" expanded="true" signature="4:236" ph="resources: &lt;3 items&gt;" />
+            <marker date="1501506759000" expanded="true" signature="4:236" ph="resources: &lt;3 items&gt;" />
           </folding>
         </state>
       </provider>

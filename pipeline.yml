@@ -89,6 +89,7 @@ jobs:
       trigger: true
     - get: import-tool-src
       trigger: true
+    - get: postgres-image-src
   - aggregate:
     - task: lint
       image: ods-postgres-db-img

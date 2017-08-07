@@ -98,7 +98,7 @@ jobs:
       file: import-tool-src/ci/unit.yml
     - task: build
       image: ods-postgres-db-img
-      file: import-tool-src/ci/build.yml
+      file: import-tool-src/build.yml
     # - task: coverage
     #   image: python-test-img
     #   file: import-tool-src/ci/coverage.yml

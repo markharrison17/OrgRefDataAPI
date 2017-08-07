@@ -20,6 +20,11 @@ resources:
   source:
     uri: https://github.com/markharrison17/ImportTool.git
 
+- name: ods-data
+  type: git
+  source:
+    uri: https://github.com/markharrison17/Data.git
+
 - name: python-test-img
   type: docker-image
   source:
@@ -88,6 +93,8 @@ jobs:
     - get: ods-postgres-db-img
       trigger: true
     - get: import-tool-src
+      trigger: true
+    - get: ods-data
       trigger: true
   - aggregate:
     - task: lint
